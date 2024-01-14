@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "ad0d8210-71ca-4e10-8a1f-c91a72408c81",
+		"name": "Kafka project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "26331321"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "msgId",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "msg",
+							"value": "Hello World",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:8080/msg"
+			},
+			"response": []
+		}
+	]
+}
